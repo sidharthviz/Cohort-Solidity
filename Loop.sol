@@ -3,7 +3,7 @@ pragma solidity ^0.8.17;
 
 contract Loop {
     function foo() public pure {
-       for(uint i =0;i<1000;i++){
+       for(uint i =0;i<1000;i++){ //looping challenge
          if(i==3)
            continue;
           else {
